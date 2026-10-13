@@ -21,7 +21,7 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone [https://github.com/George5556/AI-IDE.git](https://github.com/George5556/AI-IDE.git)
+git clone https://github.com/George5556/AI-IDE.git
 
 # 2. Перейдите в папку проекта
 cd AI-IDE
