@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-gray-300 font-sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+
+.glow-text {
+  text-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff;
+}
+
+.glow-border {
+  box-shadow: 0 0 5px #00f3ff;
+}
+
+.glow-button {
+  box-shadow: 0 0 5px rgba(0, 243, 255, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 10px rgba(0, 243, 255, 0.8), 0 0 20px rgba(0, 243, 255, 0.4);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00f3ff;
+  box-shadow: 0 0 5px #00f3ff;
+}
